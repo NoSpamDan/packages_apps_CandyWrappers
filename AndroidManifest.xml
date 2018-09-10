@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.android.wallpaperpicker"
+        package="org.candy.candywrappers"
         android:versionCode="1"
-        android:versionName="1.0"
+        android:versionName="2.0"
         >
 
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
@@ -12,7 +12,7 @@
     <application>
 
         <activity
-            android:name="com.android.wallpaperpicker.WallpaperPickerActivity"
+            android:name="org.candy.candywrappers.WallpaperPickerActivity"
             android:theme="@style/WallpaperTheme.Picker"
             android:label="@string/pick_wallpaper"
             android:icon="@mipmap/ic_launcher_wallpaper"
@@ -24,7 +24,7 @@
         </activity>
 
         <activity
-            android:name="com.android.wallpaperpicker.WallpaperCropActivity"
+            android:name="org.candy.candywrappers.WallpaperCropActivity"
             android:theme="@style/WallpaperTheme"
             android:label="@string/crop_wallpaper"
             android:icon="@mipmap/ic_launcher_wallpaper"

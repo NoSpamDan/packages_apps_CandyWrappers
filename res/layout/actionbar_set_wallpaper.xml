@@ -18,7 +18,7 @@
 */
 -->
 
-<com.android.wallpaperpicker.AlphaDisableableButton
+<org.candy.candywrappers.AlphaDisableableButton
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ActionBarSetWallpaperStyle"
     android:id="@+id/set_wallpaper_button"
